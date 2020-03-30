@@ -19,5 +19,5 @@ This project is finished.
   implementation 'com.thebluealliance:spectrum:0.7.1'
   ```
 ### Restful Api
-- Link : [MyNotesApp-Restful](http://www.google.com) - The Restful Native PHP
+- Github [Link MyNotesApp-Restful](http://www.google.com) - Native PHP
 
