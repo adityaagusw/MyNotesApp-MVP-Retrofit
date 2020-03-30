@@ -13,7 +13,7 @@ This project is finished.
   implementation 'com.squareup.retrofit2:retrofit:2.6.2'
   ```
   
-- Spectrum [Pick Color] (https://github.com/the-blue-alliance/spectrum)
+- Spectrum [Pick_Color] (https://github.com/the-blue-alliance/spectrum)
 
   ```
   implementation 'com.thebluealliance:spectrum:0.7.1'
