@@ -1,5 +1,5 @@
 # Welcome My Repository 
-+ This project is finished.
+- This project is finished.
 
 # Information :
 - Method Create, Read, Update, Delete
