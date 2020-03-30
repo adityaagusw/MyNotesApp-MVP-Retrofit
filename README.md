@@ -1,7 +1,7 @@
 # MyNotesApp-Mvp-rETROFIT
 This project is finished.
 
-# INFORMATION :
+# Information :
 
 - Only method Get
 
