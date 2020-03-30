@@ -9,23 +9,26 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import io.reactivex.Observable;
+import io.reactivex.Completable;
+
 
 public interface ApiInterface {
 
     @FormUrlEncoded
     @POST("save.php")
-    Call<Note> saveNote(
+    Observable<Note> saveNote(
             @Field("title") String title,
             @Field("note") String note,
             @Field("color") int color
     );
 
     @GET("notes.php")
-    Call<List<Note>> getNotes();
+    Observable<List<Note>> getNotes();
 
     @FormUrlEncoded
     @POST("update.php")
-    Call<Note> updateNote(
+    Completable updateNote(
             @Field("id") int id,
             @Field("title") String title,
             @Field("note") String note,
@@ -34,7 +37,7 @@ public interface ApiInterface {
 
     @FormUrlEncoded
     @POST("delete.php")
-    Call<Note> deleteNote(
+    Observable<Note> deleteNote(
             @Field("id") int id
     );
 

@@ -21,12 +21,10 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     private static final int INTENT_ADD = 100;
     private static final int INTENT_EDIT = 200;
-    private FloatingActionButton fab;
     private RecyclerView recyclerView;
     private SwipeRefreshLayout swipeRefresh;
 
     private MainPresenter presenter;
-    private MainAdapter adapter;
     private MainAdapter.ItemClickListener itemClickListener;
     private List<Note> note;
 
@@ -44,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        fab = findViewById(R.id.add);
+        FloatingActionButton fab = findViewById(R.id.add);
 
         fab.setOnClickListener(view -> {
             startActivityForResult(new Intent(getApplicationContext(), EditorActivity.class)
@@ -94,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     @Override
     public void onGetResult(List<Note> notes) {
-        adapter = new MainAdapter(this, notes, itemClickListener);
+        MainAdapter adapter = new MainAdapter(this, notes, itemClickListener);
         adapter.notifyDataSetChanged();
         recyclerView.setAdapter(adapter);
 
@@ -106,4 +104,9 @@ public class MainActivity extends AppCompatActivity implements MainView {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        presenter.getData();
+    }
 }

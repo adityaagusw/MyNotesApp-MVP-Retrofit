@@ -105,6 +105,7 @@ public class EditorActivity extends AppCompatActivity implements EditorView {
                     et_note.setError("Please enter a note");
                 } else {
                     presenter.saveNote(title, note, color);
+                    finish();
                 }
                 return true;
 
@@ -136,6 +137,7 @@ public class EditorActivity extends AppCompatActivity implements EditorView {
                 alertDialog.setNegativeButton("Yes", ((dialog, which) -> {
                     dialog.dismiss();
                     presenter.deleteNote(id);
+                    finish();
                 }));
                 alertDialog.setPositiveButton("Cancel", ((dialog, which) -> {
                     dialog.dismiss();
