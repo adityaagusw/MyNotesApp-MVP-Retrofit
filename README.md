@@ -1,10 +1,5 @@
 # MyNotesApp MVP Retrofit 
-This project is finished.
-
-### Information :
-- Method Create, Read, Update, Delete
-- Design Pattern MVP = Model View Presenter
-- The Url is embedded in BuildConfig.Apikey (build.gradle)
+this project uses the method of create, read, update, and deleting as well as writing with MVP design patterns. The Url is embedded in BuildConfig.ApiKey in build.gradle
 
 ### Use Library :
 - [Retrofit](https://square.github.io/retrofit/)
