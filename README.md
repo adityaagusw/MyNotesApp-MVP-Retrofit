@@ -1,4 +1,4 @@
-# Welcome My Repository 
+# MyNotesApp MVP Retrofit 
 This project is finished.
 
 ### Information :
