@@ -1,5 +1,5 @@
 # MyNotesApp MVP Retrofit 
-this project uses the method of create, read, update, and deleting as well as writing with MVP design patterns. The Url is embedded in BuildConfig.ApiKey in build.gradle
+This project uses the method of create, read, update, and deleting as well as writing with MVP design patterns. The Url is embedded in BuildConfig.ApiKey in build.gradle
 
 ### Android Version :
 - Support AndroidX
