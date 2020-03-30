@@ -1,5 +1,5 @@
 # MyNotesApp-Mvp-rETROFIT
-This project is finished.
+- This project is finished.
 
 # Information :
 
