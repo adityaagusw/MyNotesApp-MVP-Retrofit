@@ -1,12 +1,12 @@
 # Welcome My Repository 
 This project is finished.
 
-## Information :
+### Information :
 - Method Create, Read, Update, Delete
 - Design Pattern MVP = Model View Presenter
 - The Url is embedded in BuildConfig.Apikey (build.gradle)
 
-## Use Library :
+### Use Library :
 - Retrofit
 
   ```
@@ -18,5 +18,5 @@ This project is finished.
   ```
   implementation 'com.thebluealliance:spectrum:0.7.1'
   ```
-## Restful Api
+### Restful Api
 - Link : 
