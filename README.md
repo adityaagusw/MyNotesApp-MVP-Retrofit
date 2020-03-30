@@ -7,7 +7,9 @@
 - The Url is embedded in BuildConfig.Apikey (build.gradle)
 
 # Use Library :
-- Retrofit Library [com.squareup.retrofit2:retrofit:2.6.2]
-- Spectrum Library [com.thebluealliance:spectrum:0.7.1]
+- Retrofit
+  ->[com.squareup.retrofit2:retrofit:2.6.2]
+- Spectrum 
+  ->[com.thebluealliance:spectrum:0.7.1]
 # Restful Api
 - Link : 
