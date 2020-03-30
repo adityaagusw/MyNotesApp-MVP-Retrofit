@@ -8,7 +8,6 @@
 
 # Use Library :
 - Retrofit Library [com.squareup.retrofit2:retrofit:2.6.2]
-- Spectrum Library = https://github.com/the-blue-alliance/spectrum
-
+- Spectrum Library [com.thebluealliance:spectrum:0.7.1]
 # Restful Api
 - Link : 
